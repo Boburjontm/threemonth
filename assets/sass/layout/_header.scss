@@ -1,0 +1,57 @@
+    .wrapper__1img{
+        width: 1360px;
+        height: 750px;
+        background: linear-gradient(164deg, rgba(0, 0, 0, 0.40) -9.9%, rgba(0, 0, 0, 0.29) 113.34%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+        position: relative;
+        z-index: -20;
+    }
+    .header{
+        position: relative;
+        bottom: 755px;
+        .header__top{
+            background: rgba(0, 0, 0, 0.40);
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            width: 1360px;
+            right: 110px;
+        }
+        .header__bottom{
+            position: relative;
+            top: 150px;
+            .head__both1{
+                color: var(--Gray-6, #F2F2F2);
+                text-align: center;
+                font-family: Roboto;
+                font-size: 65px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: normal;
+                text-align: center;
+            }
+        }
+        .head__botbtn{
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            position: relative;
+            top: 150px;
+            .but__btn{
+                width: 298px;
+                height: 77px;
+                border: 1px solid #C4C4C4;
+                background: rgba(17, 17, 17, 0.60);
+                border: 1px solid #C4C4C4;
+                background: rgba(17, 17, 17, 0.60);
+                .but__btn_p{
+                    color: #FFF;
+                    text-align: center;
+                    font-family: Roboto;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 300;
+                    line-height: normal;
+                }
+            }
+        }
+    }
